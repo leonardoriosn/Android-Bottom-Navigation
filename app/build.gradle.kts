@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
     //Llamar lib declarado en el libs.versions.toml
     implementation(libs.navigation.compose)
     testImplementation(libs.junit)
